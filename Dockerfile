@@ -1,4 +1,4 @@
 FROM minio/minio:latest
 
 
-CMD ["minio","server"]
+ENV A B
